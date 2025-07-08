@@ -63,7 +63,7 @@ const Dashboard = () => {
           type="text"
           value={search}
           onChange={e => setSearch(e.target.value)}
-          placeholder="Search by name, email, body"
+          placeholder="Search by name, email, comments"
           className="border p-2 rounded w-full"
         />
         <select value={pageSize} onChange={e => setPageSize(Number(e.target.value))} className="border p-2 rounded">
