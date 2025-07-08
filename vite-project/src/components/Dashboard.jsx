@@ -79,7 +79,7 @@ const Dashboard = () => {
             <th onClick={() => cycleSort('postId')} className="cursor-pointer">Post ID</th>
             <th onClick={() => cycleSort('name')} className="cursor-pointer">Name</th>
             <th onClick={() => cycleSort('email')} className="cursor-pointer">Email</th>
-            <th>Body</th>
+            <th>Comments</th>
           </tr>
         </thead>
         <tbody>
